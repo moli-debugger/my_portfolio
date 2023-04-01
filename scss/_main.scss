@@ -1,0 +1,156 @@
+.about-me {
+  margin-top: 1em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 1em;
+  p {
+    padding: 0;
+    margin: 0;
+    font-size: 1em;
+  }
+  .about-text {
+    a > i,
+    p > i {
+      margin-top: 13px;
+      margin-right: 4px;
+      margin-left: 4px;
+      margin-bottom: 6px;
+      color: #696969;
+    }
+    span {
+      color: black;
+    }
+    h4 {
+      font-family: "Playfair Display", serif;
+      font-weight: 500;
+      font-size: 20px;
+    }
+  }
+  .about-container {
+    box-shadow: 3px 2px 5px 2px rgba(0, 0, 0, 0.12);
+    -webkit-box-shadow: 3px 2px 5px 2px rgba(0, 0, 0, 0.12);
+    -moz-box-shadow: 3px 2px 5px 2px rgba(0, 0, 0, 0.12);
+    width: 90vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    padding: 1em;
+    transition: all 1000ms ease-in-out;
+    .box-container {
+      display: flex;
+      justify-content: center;
+      width: 100%;
+      img {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        width: 200px;
+      }
+    }
+    h4 {
+      margin-top: 1em;
+    }
+    span {
+      padding-left: 0.4em;
+    }
+  }
+}
+
+.servicess {
+  margin: 1em 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.services {
+  text-align: center;
+  h2 {
+    font-family: "Crimson Text", serif;
+    margin-top: 0;
+    font-size: 2.1em;
+  }
+  // box-shadow: 3px 2px 5px 2px rgba(0, 0, 0, 0.12);
+  // -webkit-box-shadow: 3px 2px 5px 2px rgba(0, 0, 0, 0.12);
+  // -moz-box-shadow: 3px 2px 5px 2px rgba(0, 0, 0, 0.12);
+  width: 95vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  padding: 1em;
+  .box-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    img {
+      width: 150px;
+    }
+  }
+  h3 {
+    font-family: "Playfair Display", serif;
+    font-weight: 500;
+    font-size: 20px;
+    margin-top: 0;
+  }
+  .detials {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  p {
+    color: #696969;
+  }
+}
+
+.pylap {
+  width: 200px;
+  margin: 1.2em 0;
+}
+
+.container .heading {
+  font-family: "Crimson Text", serif;
+  margin-top: 0;
+  font-size: 2.1em;
+}
+.services h2 {
+  font-family: "Crimson Text", serif;
+  margin: 0;
+  font-size: 2.1em;
+}
+
+.eve {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  h2 {
+    margin: 0;
+    margin-bottom: 1em;
+  }
+}
+
+.eve-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  .box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    p {
+      max-width: 480px;
+      text-align: center;
+      padding: 1em 3em;
+      opacity: 0.7;
+    }
+  }
+}

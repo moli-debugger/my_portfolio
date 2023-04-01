@@ -1,0 +1,91 @@
+.skillls {
+  margin: 1em 0;
+  display: flex;
+  justify-content: center;
+  .skills {
+    width: 98vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    padding: 1em;
+    h2,
+    h5 {
+      margin-top: 0;
+    }
+    h2 {
+      font-size: 2em;
+    }
+    h5 {
+      font-size: 1.2em;
+    }
+    .skill-img {
+      width: 100%;
+      justify-content: space-around;
+      align-items: center;
+      display: grid;
+      grid-template-columns: repeat(2, 100px);
+      grid-template-rows: 100px;
+      .image:nth-child(odd) {
+        animation: bounce 3s infinite;
+        animation-timing-function: ease;
+      }
+
+      .image:nth-child(even) {
+        animation: bounce 3s infinite;
+        animation-timing-function: ease;
+      }
+
+      .image {
+        display: flex;
+        justify-content: center;
+        margin: 1em 0;
+        border-radius: 3px;
+
+        img {
+          height: 100px;
+          padding: 0.3em;
+          overflow: unset;
+        }
+      }
+    }
+  }
+}
+/* animations */
+@keyframes bounce {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+.larger {
+  display: grid;
+  place-content: center;
+  img {
+    height: 87px;
+    padding: 0.3em;
+    overflow: unset;
+
+    animation: bounce 3s infinite;
+    animation-timing-function: ease;
+  }
+}
+.wider {
+  grid-column: 1 / span 2;
+  display: grid;
+  place-content: center;
+  img {
+    height: 70px;
+    padding: 0.3em;
+    overflow: unset;
+
+    animation: bounce 3s infinite;
+    animation-timing-function: ease;
+  }
+}

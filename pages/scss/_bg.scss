@@ -1,0 +1,126 @@
+.flake {
+  overflow-x: hidden;
+}
+
+.flex {
+  width: 98vw;
+  height: 106vh;
+  margin: 0px auto;
+  position: absolute;
+  opacity: 0.3;
+  overflow-y: hidden;
+}
+i {
+  margin: 20px;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: space-between;
+}
+section .flex i {
+  opacity: 0;
+  -webkit-transform-origin: 0px 0px;
+  -ms-transform-origin: 0px 0px;
+  transform-origin: 0px 0px;
+  -webkit-animation-name: Drop;
+  animation-name: Drop;
+  -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+  -webkit-animation-timing-function: linear;
+  animation-timing-function: linear;
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+}
+.flake1 {
+  left: 20px;
+  -webkit-animation-duration: 2.5s;
+  animation-duration: 2.5s;
+}
+.flake2 {
+  left: 40px;
+  -webkit-animation-duration: 2.7s;
+  animation-duration: 2.7s;
+  -webkit-animation-delay: 0.2s;
+  animation-delay: 0.2s;
+}
+.flake3 {
+  left: 60px;
+  -webkit-animation-duration: 2.9s;
+  animation-duration: 2.9s;
+  -webkit-animation-delay: 0.4s;
+  animation-delay: 0.4s;
+}
+.flake4 {
+  left: 80px;
+  -webkit-animation-duration: 2.4s;
+  animation-duration: 2.4s;
+  -webkit-animation-delay: 0s;
+  animation-delay: 0s;
+}
+
+.flake5 {
+  left: 100px;
+  -webkit-animation-duration: 2.4s;
+  animation-duration: 2.4s;
+  -webkit-animation-delay: 1s;
+  animation-delay: 1s;
+}
+.flake6 {
+  left: 150px;
+  -webkit-animation-duration: 3s;
+  animation-duration: 3s;
+  -webkit-animation-delay: 1.2s;
+  animation-delay: 1.2s;
+}
+.flake7 {
+  left: 170px;
+  -webkit-animation-duration: 4s;
+  animation-duration: 4s;
+  -webkit-animation-delay: 1.2s;
+  animation-delay: 1.2s;
+}
+.flake8 {
+  left: 200px;
+  -webkit-animation-duration: 7s;
+  animation-duration: 7s;
+  -webkit-animation-delay: 1.4s;
+  animation-delay: 1.4s;
+}
+@-webkit-keyframes Drop {
+  0% {
+    -webkit-transform: translateY(0px);
+    transform: translateY(0px);
+    opacity: 0;
+  }
+
+  50% {
+    -webkit-transform: translateY(70px);
+    transform: translateY(70px);
+    opacity: 1;
+  }
+
+  100% {
+    -webkit-transform: translateY(100px);
+    transform: translateY(150px);
+    opacity: 0.3;
+  }
+}
+
+@keyframes Drop {
+  0% {
+    -webkit-transform: translateY(0px);
+    transform: translateY(0px);
+    opacity: 0;
+  }
+
+  50% {
+    -webkit-transform: translateY(60px);
+    transform: translateY(60px);
+    opacity: 1;
+  }
+
+  100% {
+    -webkit-transform: translateY(200px);
+    transform: translateY(200px);
+    opacity: 0.3;
+  }
+}

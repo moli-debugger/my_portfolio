@@ -1,0 +1,51 @@
+.container {
+  max-width: 90vw;
+  margin: 0 auto;
+  padding: 0 2rem 2rem;
+}
+.heading {
+  font-family: "Montserrat", Arial, sans-serif;
+  font-size: 2rem;
+  font-weight: 500;
+  line-height: 1.5;
+  text-align: center;
+  padding: 1rem 0;
+  color: #1a1a1a;
+}
+
+.heading span {
+  display: block;
+}
+
+.gallery {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  grid-gap: 1em;
+  width: 100%;
+  img {
+    max-width: 330px;
+    width: 90%;
+    transition: all 0.4s ease-out;
+  }
+  img:hover {
+    transform: scale(1.1);
+    box-shadow: 11px 11px 16px 0px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 11px 11px 16px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 11px 11px 16px 0px rgba(0, 0, 0, 0.75);
+  }
+  @supports (display: grid) {
+    .gallery {
+      display: grid;
+
+      grid-template-columns: repeat(auto-fit, minmax(24rem, 1fr));
+      grid-gap: 2rem;
+    }
+
+    .gallery,
+    .gallery-item {
+      margin: 0;
+    }
+  }
+}

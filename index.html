@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!--meta tags-->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="<se>, initial-scale=1.0">
+  <!--libraries for font-awesome icons-->
+  <script src="https://www.gstatic.com/firebasejs/8.6.2/firebase-app.js"></script>
+
+  <script src="https://www.gstatic.com/firebasejs/8.6.2/firebase-auth.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/8.6.2/firebase-firestore.js"></script>
+
+  <!-- <link rel = "stylesheet" href = "https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"> -->
+  <!-- <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" ></script> -->
+  <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="../js/animi.js"></script>
+  <script type="text/javascript" src="../js/fireworks.js"></script>
+
+
+<link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css" />
+<link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+
+  <!--way to link the files-->
+  <link rel="stylesheet" href="../scss/style.css">
+
+
+
+
+  <!--title for the site-->
+  <title>Moli's Blog</title>
+
+  <!-- Google Tag Manager -->
+  <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+            new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+          j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+          'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-5C9V8NP');</script>
+  <!-- End Google Tag Manager -->
+</head>
+
+<!--Body Section-->
+<body>
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5C9V8NP"
+                  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+<header>
+  <section id="flake">
+    <div class="flex">
+      <i class="fa fa-android fa-2x flake1"></i>
+      <i class="fa fa-battery-three-quarters fa-3x flake2"></i>
+      <i class="fa fa-television fa-4x flake1"></i>
+      <i class="fa fa-bug fa-3x flake3"></i>
+      <i class="fa fa-check-square fa-5x flake4"></i>
+      <i class="fa fa-child fa-4x flake5"></i>
+      <i class="fa fa-instagram fa-2x flake6"></i>
+      <i class="fa fa-bookmark fa-3x flake8"></i>
+      <i class="fa fa-clock-o fa-2x flake7"></i>
+      <i class="fa fa-amazon fa-2x flake5"></i>
+      <i class="fa fa-coffee fa-4x flake1"></i>
+      <i class="fa fa-apple fa-2x flake6"></i>
+      <i class="fa fa-cogs fa-3x flake4"></i>
+      <i class="fa fa-envelope-o fa-2x flake3"></i>
+      <i class="fa fa-file-code-o fa-3x flake7"></i>
+      <i class="fa fa-eyedropper fa-4x flake8"></i>
+      <i class="fa fa-youtube-play fa-2x flake1"></i>
+      <i class="fa fa-file-image-o fa-5x flake6"></i>
+      <i class="fa fa-film fa-3x flake7"></i>
+      <i class="fa fa-dropbox fa-2x flake5"></i>
+      <i class="fa fa-folder-open-o fa-5x flake4"></i>
+      <i class="fa fa-refresh fa-2x flake3"></i>
+      <i class="fa fa-flag fa-5x flake8"></i>
+      <i class="fa fa-facebook-official fa-2x flake1"></i>
+      <i class="fa fa-headphones fa-3x flake3"></i>
+      <i class="fa fa-heart fa-4x flake4"></i>
+      <i class="fa fa-twitter fa-2x flake8"></i>
+      <i class="fa fa-rss-square fa-4x flake7"></i>
+      <i class="fa fa-github fa-2x flake5"></i>
+      <i class="fa fa-thumb-tack fa-3x flake1"></i>
+      <i class="fa fa-chrome fa-2x flake8"></i>
+      <i class="fa fa-wifi fa-4x flake3"></i>
+      <i class="fa fa-thumbs-up fa-5x flake6"></i>
+    </div>
+  </section>
+  <!--top nav-bar-->
+    <div class="nav">
+      <input type="checkbox" id="nav-check">
+      <div class="nav-header">
+        <div class="nav-title">
+          My Portfolio
+        </div>
+      </div>
+      <div class="nav-btn">
+        <label for="nav-check">
+          <span></span>
+          <span></span>
+          <span></span>
+        </label>
+      </div>
+    
+      <div class="nav-links">
+        <a href="##home">Home</a>
+        <a href="#about">About</a>
+        <a href="#service">Services</a>
+        <a href="#contactus">Contact Me</a>
+    
+      </div>
+    </div>
+  
+
+
+  <!--Content of the body starts here-->
+  <!--inserting a image -->
+  <div class="hero">
+  <div class="image">
+    <img src="../image/halfsize.jpg" class="img">
+  </div>
+  </section>
+
+  <div class="text-container" id=#home>
+    <p>Hello,</p>
+    <p>I'm Mohamed Ali</p>
+    <link href="https://fonts.googleapis.com/css?family=Raleway:200,100,400" rel="stylesheet" type="text/css" />
+    <br>
+    <h1 class="txt-r">I am
+      <span
+              class="txt-rotate"
+              data-period="2000"
+              data-rotate='[ "Python developer.", "AI Engineer.", "Android developer." ]'></span>
+    </h1>
+    <br>
+    <a href ="mailto:mkmohamedalimoli@gmail.com"><button class="hire-btn">Hire me</button></a>
+    <a href="mohamed's_resume.pdf" download="mohamed's_cv"><button class="dwnld-cv"> Download CV</button></a>
+  </div>
+</div>
+ 
+</header>
+<main>
+<!--About section-->
+<section class="about-me">
+<div class="about-container" id="about">
+  <div class="box-container">
+    <img src="../image/fullsize.jpg"  class="img-2">
+  </div>
+
+  <div class="about-text" style="padding-top:2%">
+    <h4>About me</h4>
+    <p><i class="fa fa-child" aria-hidden="true"></i><span>Date of Birth : 29/01/2001</span></p>
+    <p><i class="fa fa-book" aria-hidden="true"></i><span>Degree : B.SC Information Tecnology</span></p>
+    <p><i class="fa fa-home" aria-hidden="true"></i><span>Student at SriKrishna Arts and Science College</span></p>
+    <p><b><a href="https://dsc.community.dev/u/mpw8sw/" ><i class="fa fa-star" aria-hidden="true"></i><span>AI Lead in Google Student Developer Community</span></a></b></p>
+    <!--<a href="asset/cv.pdf" download="moli's cv"><button class="dwnld-cv"> Download CV</button></a>
+!-->
+  </div>
+</div>
+</section>
+
+<!--services section-->
+<section class="servicess">
+<div class="services" id="service">
+  <div class="services-text">
+    <h2>Services</h2>
+  </div>
+<img class="pylap" src="./image/icons/python-cutout.png" alt="">
+  <br>
+
+  <div class="details"  >
+    <div class="content" >
+      <p>As a <span style="font-weight: bold;">python developer</span>, I have gained many knowledge about it as much, mostly all my python learning</p>
+      <p>as given me common experience, so it has made me a professional techie now.
+        Also, once I start a project I'll be fully concentrating on it</p>
+      <p> won't do anyother work, and I think this dedication is my greatest advantage.
+        So, if you wish to collaborate with me , please ping me from the below options.</p>
+    </div>
+  </div>
+</div>
+</section>
+<!--skills section-->
+<section class="skillls">
+<div class ="skills">
+  <h2>SKILL's</h2>
+  <h5> I'm experienced in...</h5>
+  <div class="skill-img">
+    <div class="image"><img src="../image/icons/py-logo.png" class="tensor"></div>
+    <div class="image"><img src="../image/icons/android-logo.png" class="gcp"></div>
+    <div class="larger"><img src="../image/icons/opencv-logo.png" class="cv2" title="Hello from speech bubble!"></div>
+    <div class="image"><img
+        src="./image/icons/kisspng-google-cloud-platform-cloud-computing-amazon-web-s-cloud-computing-5ad2ea752d46d5.2243683715237720211855.png"
+        class="cloud"></div>
+    <div class="wider"><img src="./image/icons/tf_logo_social-cutout.png" class="png1"></div>
+    
+  </div>
+</div>
+</section>
+
+
+</section> <!-- / projects -->
+
+<div>
+
+  <div class="container">
+
+    <h1 class="heading">Sample Projects</span></h1>
+
+    <div class="gallery">
+
+          <img class="gallery-image" id="qr" src="image/qrcode_mobile.jpg"
+            alt="Simple side project helps to create a QR-code for your custom data">
+        
+          <img class="gallery-image" id="vehicle" src="image/detection-vech_mobile.jpg"
+            alt="Simple side project helps to create a identify four wheelers in photage">
+       
+          <img class="gallery-image" id="face" src="image/facr-detection_mobile.jpg"
+            alt="Simple side project helps to create a QR-code for your custom data">
+       
+          <img class="gallery-image" id="invoice" src="image/invoice_mobile.jpg"
+            alt="Simple side project helps to create a QR-code for your custom data">
+       
+          <img class="gallery-image" id="web" src="image/web%20automation_mobile.jpg"
+            alt="Simple side project helps to create a QR-code for your custom data">
+        
+          <img class="gallery-image" id="txt" src="image/txt_mobile.jpg"
+            alt="Simple side project helps to create a QR-code for your custom data">
+        
+
+    </div>
+
+  </div>
+
+</div>
+
+<section>
+  <div class="eve"><h2>Events</h2></div>
+  <div class="eve-container">
+    <div class="box">
+        <img src="./image/events/photo_2021-05-12_20-29-18.jpg" />
+        <p>In my 1st year I got selected as campus ambassador for internshala as the internshala student partner .
+          During the programme I got trained in promotional activities and in Delivering a technical speech as a mentor.
+          On 15/4/2020 I got opportunity to be a speaker in a webniar to provide guidance talks about how to apply internship
+        </p>
+    </div>
+    <div class="box">
+        <img src="./image/events/photo_2021-05-12_20-30-24.jpg" />
+<p>Myself and my GDSC SKASC Lead planned to provide an eye opening session in Artificial Intelligence.
+  For that we conduct an online workshop where 200+ participation participated and gain knowledge in how to create image classification and object detection within few lines of codes.
+  The session was went so good and I am very happy to be a speaker in GOOGLE DEVELOPER STUDENTS CLUB.</p>    </div>
+    <div class="box">
+        <img src="./image/events/photo_2021-05-12_20-30-32.jpg" />
+<p>Conducted an conversation meet between senior and fresher who are technically interested
+  Shared my views and opinions regarding their career and domain interest.
+  Explained few technologies like Git, AI/Ml, Designing etc. </p>    </div>
+    <div class="box">
+        <img src="./image/events/r1.jpg" />
+<p>During my 1st year participated in national level hackathon SIH 2020 under the domain AI and  Organisation is CBSE.
+  One of the team member in Semi finalised team.
+  The problem statement was to prevent cheating and malpractice in offline examination. </p>    </div>
+    <div class="box">
+        <img src="./image/events/photo_2021-05-0-50.jpg" />
+<p>Google cloud and Google qwiklabs always encourages students to learn more stuff which leads them to become professional. Meanwhile am also one of the students who gain experience from qwiklabs.
+  Participated in competition and completed successfully.
+  They honoured all the students who are completed the given task by tweet in Twitter with congratulations poster.
+  Proved to be one among them.</p>    </div>
+        </div>
+</section>
+
+<div>
+
+  
+</div>
+
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+</main>
+</body>
+
+
+<!--footer of the site-->
+<footer>
+  <div class="containerr" style="max-width:500px">
+
+    <h1 id="ccontatus">Contact Me<a href="#contact"><i class="fa fa-mobile" aria-hidden="true"></i></a></h1>
+    <form>
+      <label for="fname">First Name</label>
+      <input type="text" id="fname" name="fname" placeholder="Your name..">
+      <br>
+      <label for="lname">Last Name</label>
+      <input type="text" id="lname" name="lname" placeholder="Your last name..">
+      <br>
+      <label for="lname">Email ID</label>
+      <input type="text" id="emailbox" name="email" placeholder="example@gmail.com">
+<br>
+      <label for="country">Country</label>
+      <select id="country" name="country">
+        <option value="australia">Australia</option>
+        <option value="canada">Canada</option>
+        <option value="usa">India</option>
+        <option value="australia">Europe</option>
+        <option value="canada">South America</option>
+        <option value="usa">North America</option>
+        <option value="Malasiya">Malasiya</option>
+      </select>
+
+
+      <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+
+      <button id="submit">submit</button>
+    </form>
+  </div>
+
+
+
+  <script  src="js/main.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+  <div class="sticky-social">
+    <ul class="social">
+      <li class="git"><a href="https://github.com/moli-debugger"><i class="fa fa-github" aria-hidden="true"></i></a></li>
+      <li class="twitter"><a href="https://twitter.com/Molimohamed3"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+      <li class="insta"><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+      <li class="pin"><a href="https://www.linkedin.com/in/mohamed-ali-a543a11a3/"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+      <li class="vim"><a href="https://www.qwiklabs.com/public_profiles/baf7a891-97ff-4ceb-8830-80e705b2cb76"><i class="fa fa-google" aria-hidden="true"></i></a></li>
+    </ul>
+  </div>
+
+
+</footer>
+
+</html>

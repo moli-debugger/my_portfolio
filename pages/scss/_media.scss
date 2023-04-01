@@ -1,0 +1,78 @@
+@media screen and (min-width: 481px) {
+}
+
+@media screen and (min-width: 680px) {
+}
+
+@media screen and (min-width: 901px) {
+}
+
+@media screen and (min-width: 1025px) {
+}
+
+@media screen and (min-width: 1101px) {
+  body {
+    width: 98.7vw;
+    max-width: 98.7vw;
+  }
+  .about-me .about-container {
+    width: 800px;
+    margin-top: 3em;
+    flex-direction: unset;
+    align-items: center;
+    h4 {
+      margin-top: 0;
+      padding-top: 0;
+    }
+    .box-container {
+      width: 300px;
+    }
+  }
+  // sevices
+  .servicess {
+    margin: 3em 0;
+    .content {
+      max-width: 700px;
+    }
+  }
+  // skills
+  .skillls .skills .skill-img {
+    margin-top: 2em;
+    width: 70vw;
+    display: unset;
+    display: flex;
+  }
+  .gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 330px));
+  }
+  footer {
+    display: grid;
+    place-content: center;
+    .sticky-social .social li {
+      font-size: 25px;
+    }
+  }
+  .eve-container {
+    .box {
+      width: 90%;
+      margin: 5em;
+      flex-direction: unset;
+      justify-content: center;
+      margin-bottom: 2em;
+      img {
+        height: 250px;
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 1200px) {
+}
+@media screen and (min-width: 1900px) {
+}
+
+// social
+
+@media screen and (min-height: 740px) {
+}
